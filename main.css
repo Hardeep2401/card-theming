@@ -1,0 +1,62 @@
+/* ===== sass ===== */
+body {
+  background-image: radial-gradient(circle, #5b9797, #599595, #569292, #549090, #518e8e, #4f9292, #4c9696, #499a9a, #45a6a6, #3fb1b1, #36bdbd, #29c9c9);
+}
+
+.navbar .span-text {
+  letter-spacing: 1px !important;
+}
+.navbar .default-bg.active {
+  background-color: #08333f !important;
+  border: none !important;
+  color: white !important;
+}
+.navbar .default-bg.active .default-bg {
+  border: 1px solid #070b52 !important;
+  color: #08333f !important;
+}
+.navbar .border-primary.active {
+  background-color: #070b52 !important;
+  color: white !important;
+}
+.navbar .border-primary.active .border-primary {
+  border: 1px solid #070b52 !important;
+  color: #942f39 !important;
+}
+.navbar .border-success.active {
+  background-color: #214429 !important;
+  color: #fff !important;
+  border: none !important;
+}
+.navbar .border-success.active .border-success {
+  border: 1px solid #214429 !important;
+  color: #214429 !important;
+}
+.navbar .border-danger.active {
+  background-color: #942f39 !important;
+  color: #fff !important;
+  border: none !important;
+}
+.navbar .border-danger.active .border-danger {
+  border: 1px solid #942f39 !important;
+  color: #942f39 !important;
+}
+.navbar .border-info.active {
+  background-color: #116775 !important;
+  color: #fff !important;
+  border: none !important;
+}
+.navbar .border-info.active .border-info {
+  border: 1px solid #116775 !important;
+  color: #116775 !important;
+}
+
+section .card .card-title,
+section .card h4,
+section .card .main-text {
+  color: #08333f !important;
+}
+section .card button {
+  background-color: #08333f !important;
+  letter-spacing: 1px !important;
+}/*# sourceMappingURL=main.css.map */
