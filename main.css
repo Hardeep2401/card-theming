@@ -6,49 +6,50 @@ body {
 .navbar .span-text {
   letter-spacing: 1px !important;
 }
+.navbar .default-bg {
+  border: 1px solid #08333f !important;
+  color: #08333f !important;
+}
 .navbar .default-bg.active {
   background-color: #08333f !important;
   border: none !important;
   color: white !important;
 }
-.navbar .default-bg.active .default-bg {
+.navbar .border-primary {
   border: 1px solid #070b52 !important;
-  color: #08333f !important;
+  color: #070b52 !important;
 }
 .navbar .border-primary.active {
   background-color: #070b52 !important;
   color: white !important;
+  border: none !important;
 }
-.navbar .border-primary.active .border-primary {
-  border: 1px solid #070b52 !important;
-  color: #942f39 !important;
+.navbar .border-success {
+  border: 1px solid #214429 !important;
+  color: #214429 !important;
 }
 .navbar .border-success.active {
   background-color: #214429 !important;
   color: #fff !important;
   border: none !important;
 }
-.navbar .border-success.active .border-success {
-  border: 1px solid #214429 !important;
-  color: #214429 !important;
+.navbar .border-danger {
+  border: 1px solid #942f39 !important;
+  color: #942f39 !important;
 }
 .navbar .border-danger.active {
   background-color: #942f39 !important;
   color: #fff !important;
   border: none !important;
 }
-.navbar .border-danger.active .border-danger {
-  border: 1px solid #942f39 !important;
-  color: #942f39 !important;
+.navbar .border-info {
+  border: 1px solid #116775 !important;
+  color: #116775 !important;
 }
 .navbar .border-info.active {
   background-color: #116775 !important;
   color: #fff !important;
   border: none !important;
-}
-.navbar .border-info.active .border-info {
-  border: 1px solid #116775 !important;
-  color: #116775 !important;
 }
 
 section .card .card-title,
