@@ -36,16 +36,19 @@ body {
       background-color: $default-color !important;
       border: none !important;
       color: white !important;
+
     }
   }
 
   .border-primary {
     border: 1px solid $primary-color !important;
     color: $primary-color !important;
+    
     &.active {
       background-color: $primary-color !important;
       color: white !important;
       border: none !important;
+      
     }
   }
 
@@ -79,12 +82,14 @@ body {
     }
   }
 }
+
 section {
   .card {
     .card-title,
     h4,
-    .main-text {
+    .main-text, svg {
       color: $default-color !important;
+      fill: $default-color !important;
     }
     button {
       background-color: $default-color !important;
