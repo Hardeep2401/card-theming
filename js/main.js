@@ -6,8 +6,8 @@ for (let btnBox of mainButton) {
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
    
-    let theme = document.getElementsByClassName("btn active");
-      if (theme  = 0) {
+    let theme = document.getElementsByClassName("btn.active");
+      if (theme) {
        let test = document.getElementsByClassName("default").innerHTML;
         test.classList.replace();
       } else {

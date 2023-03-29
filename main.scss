@@ -88,13 +88,16 @@ body {
       .card-title {
         color: $default;
       }
-      h4{
+
+      h4 {
         color: $default;
       }
+
       svg {
         color: $default;
         fill: $default;
       }
+
       button {
         background-color: $default;
         letter-spacing: 1px;
@@ -121,6 +124,21 @@ body {
   .info {
     @include theme($default: $info-color);
   }
-
- 
 }
+
+
+// p div{
+
+// }
+
+// p.div{
+
+// }
+
+// p + div{
+
+// }
+
+// p ~ div{
+
+// }
