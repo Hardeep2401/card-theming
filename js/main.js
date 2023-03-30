@@ -7,13 +7,14 @@ for (let btnBox of mainButton) {
     this.className += " active";
 
 
-    let first = document.querySelectorAll(".btn.active");
-   if (first){ 
-    document.getElementsByTagName("BODY")[0].classList.remove("test");
-    document.getElementsByTagName("BODY")[0].classList.add("test");
-   }
+    let first = document.querySelectorAll(".btn.active")[0].innerText;
+    // let second = first.getElementsByClassName("default")[0].classList.add("test"); 
+    console.log(first)
 
-    
+   if (first){ 
+    document.getElementsByTagName("SECTION")[0].classList.remove("test");
+    document.getElementsByTagName("SECTION")[0].classList.add("test");  
+   }
  
   });
 }
