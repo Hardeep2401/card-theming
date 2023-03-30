@@ -8,13 +8,9 @@ for (let btnBox of mainButton) {
 
 
     let first = document.querySelectorAll(".btn.active")[0].innerText;
-    // let second = first.getElementsByClassName("default")[0].classList.add("test"); 
-    console.log(first)
 
-   if (first){ 
-    document.getElementsByTagName("SECTION")[0].classList.remove("test");
-    document.getElementsByTagName("SECTION")[0].classList.add("test");  
-   }
- 
+      document.getElementsByTagName("SECTION")[0].removeAttribute("class");
+      // document.getElementsByTagName("SECTION")[0].classList.remove(first);
+      document.getElementsByTagName("SECTION")[0].classList.add(first);
   });
 }
