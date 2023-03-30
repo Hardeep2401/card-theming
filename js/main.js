@@ -6,10 +6,14 @@ for (let btnBox of mainButton) {
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
 
-    let theme = document
-      .querySelectorAll(".btn.active")
-      .classList.add("default").innerHTML;
-    theme.classList.replace();
-    theme.classList += " theme";
+
+    let first = document.querySelectorAll(".btn.active");
+   if (first){ 
+    document.getElementsByTagName("BODY")[0].classList.remove("test");
+    document.getElementsByTagName("BODY")[0].classList.add("test");
+   }
+
+    
+ 
   });
 }
