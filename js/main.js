@@ -7,10 +7,11 @@ for (let btnBox of mainButton) {
     this.className += " active";
 
 
-    let first = document.querySelectorAll(".btn.active")[0].innerText;
+  let first = document.querySelectorAll(".btn.active")[0].innerText;
 
-      document.getElementsByTagName("SECTION")[0].removeAttribute("class");
-      // document.getElementsByTagName("SECTION")[0].classList.remove(first);
-      document.getElementsByTagName("SECTION")[0].classList.add(first);
-  });
+   document.getElementsByTagName("SECTION")[0].removeAttribute("class");
+  // document.getElementsByTagName("SECTION")[0].className.replace("default", ""); 
+   document.getElementsByTagName("SECTION")[0].classList.add(first);
+ });
 }
+
