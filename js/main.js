@@ -5,14 +5,11 @@ for (let btnBox of mainButton) {
     let current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
-   
-    let theme = document.getElementsByClassName("btn.active");
-      if (theme) {
-       let test = document.getElementsByClassName("default").innerHTML;
-        test.classList.replace();
-      } else {
-        this.classList.add("test");
-      }
+
+    let theme = document
+      .querySelectorAll(".btn.active")
+      .classList.add("default").innerHTML;
+    theme.classList.replace();
+    theme.classList += " theme";
   });
 }
-
